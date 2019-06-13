@@ -6,6 +6,10 @@ spring:
 ---
 spring:
   profiles: 7001
+  boot:
+    admin:
+      client:
+        url: http://localhost:8005
 server:
   port: 7001
 eureka:
